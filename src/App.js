@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import FacebookText from './components/FacebookText'
+import UserForm from './components/UserForm'
 
 function App() {
   return (
-    <div className="App">
-      Hello
+    <div className="container-root">
+      <FacebookText />
+      <UserForm />
     </div>
   );
 }
